@@ -1,0 +1,11 @@
+create Table studentsdetails(
+reg_No int,
+name_varchar,
+contact bigint);
+
+insert into studentsdetails(reg_no,name,contact)
+values(1,'anu',4455667788),(2,'priya',2233445566);
+
+select reg_no,name from studentsdetails;
+
+select*from studentsdetails;
